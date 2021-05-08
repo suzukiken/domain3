@@ -11,6 +11,13 @@
     "@aws-cdk/aws-s3:grantWriteWithoutAcl": true,
     "@aws-cdk/aws-ecs-patterns:removeDefaultDesiredCount": true,
     "@aws-cdk/aws-rds:lowercaseDbIdentifier": true,
-    "@aws-cdk/aws-efs:defaultEncryptionAtRest": true
+    "@aws-cdk/aws-efs:defaultEncryptionAtRest": true,
+    "domain": "figmentresearch.com",
+    "apnortheast1_acmarn_exportname": "v-domain-figmentresearch-wildcard-apnortheast1-acmarn-3",
+    "useast1_acmarn_exportname": "v-domain-figmentresearch-wildcard-useast1-acmarn-3",
+    "hostedzoneid_exportname": "v-domain-figmentresearch-hostedzoneid-3",
+    "apnortheast1_acmarn_ssmparamname": "/v/domain/figmentresearch/wildcard/apnortheast1/acmarn/3",
+    "useast1_acmarn_ssmparamname": "/v/domain/figmentresearch/wildcard/useast1/acmarn/3",
+    "hostedzoneid_ssmparamname": "/v/domain/figmentresearch/hostedzoneid/3"
   }
 }
