@@ -14,7 +14,7 @@
   * ACM arn
   * HostedZone Id
 
-[diagram by cfn-dia](https://diagram.figmentresearch.com/domain)
+[diagram by cfn-dia](https://diagram.figmentresearch.com/domain3)
 
 ## Purpose
 
