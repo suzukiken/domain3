@@ -7,7 +7,7 @@ export class Domain3Stack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
     
-    const domain = this.node.tryGetContext('domain')
+    const domain = ssm.StringParameter.valueFromLookup(this, this.node.tryGetContext('domainname_ssmparamname'))
     
     const zone = route53.HostedZone.fromLookup(this, 'Zone', {
       domainName: domain

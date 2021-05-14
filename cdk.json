@@ -12,7 +12,7 @@
     "@aws-cdk/aws-ecs-patterns:removeDefaultDesiredCount": true,
     "@aws-cdk/aws-rds:lowercaseDbIdentifier": true,
     "@aws-cdk/aws-efs:defaultEncryptionAtRest": true,
-    "domain": "figmentresearch.com",
+    "domainname_ssmparamname": "/v/domain/figmentresearch",
     "apnortheast1_acmarn_exportname": "v-domain-figmentresearch-wildcard-apnortheast1-acmarn-3",
     "useast1_acmarn_exportname": "v-domain-figmentresearch-wildcard-useast1-acmarn-3",
     "hostedzoneid_exportname": "v-domain-figmentresearch-hostedzoneid-3",
